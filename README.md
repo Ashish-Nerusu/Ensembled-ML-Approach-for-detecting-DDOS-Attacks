@@ -23,3 +23,25 @@ Evaluation metrics: Accuracy, Precision, Recall, F1-score
 
 DDoS Detection: Real-time classification of normal vs malicious flows.
 
+🛠️ Technologies Used
+SDN Stack: Mininet, Ryu Controller
+
+Traffic Tools: Scapy, hping3, iperf
+
+ML Libraries: Scikit-learn, XGBoost, Pandas, NumPy
+
+Environment: Ubuntu (via WSL2 or native), Python 3.x
+
+⚙️ How It Works
+Set up SDN network in Mininet.
+
+Ryu controller logs real-time flow statistics.
+
+Use Scapy and hping3 to inject DDoS-like traffic.
+
+Extract traffic logs, clean data, and create labeled datasets.
+
+Train ML models on extracted features.
+
+Detect and classify incoming traffic as benign or DDoS in real-time.
+
